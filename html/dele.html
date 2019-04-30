@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  counter-reset: section;
+}
+ 
+ h2::before {
+  counter-increment: section;
+  content: "Section " counter(section) ": ";
+}
+
+/* Style the header */
+ 
+
+.card {
+  background-color: #d099d6;
+   padding: 27px;
+    margin-top: 1px;
+    margin-right: 10;
+    margin-left: 1
+}
+
+
+ 
+.column{
+    float: left;
+    width: 33.3%;
+    padding-left: 0px;
+
+}
+
+.row{
+     content: "";
+  display: table;
+  clear: both;
+   }
+
+   #table{
+   	display: table;
+    border: 1px solid #666666;         
+        border-spacing: 5px;   }
+
+   .rows{
+
+   	display: table-row; 
+  /* vignesh@mookambika 
+
+   vignesh.rajasekaran@mookambikainfo.com*/
+
+   }
+   .col{
+   	display:table-cell;
+   	width: 50px ; 
+   	border: thin red block;
+   	height: 50px
+   	margin:10px;
+   padding: 20px;
+
+   }
+
+.flex{
+	display: flex;
+	background-color: #3a3a6d;
+
+}
+.flex > div{
+	background-color: #d48f8f;
+	margin: 20px;
+	padding: 20px;
+	font-size: 15px;
+}
+</style>
+</head>
+<body>
+
+ 
+
+ 
+
+<div class="row">
+	
+<div class="column">
+	<div class="card">
+	 <h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+</div>
+</div>
+<div class="column">
+	<div class="card" style="margin-left: -8px">
+<h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+</div></div>
+<div class="column" style="margin-left: -9px" >
+	<div class="card">
+	  <h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+
+</div></div>
+</div>
+ 
+ 
+
+ 
+
+
+ 
+</body>
+</html>

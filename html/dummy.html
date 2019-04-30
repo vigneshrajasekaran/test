@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+  <title> Blog</title>
+  <style type="text/css">
+     
+
+    .head1{
+      text-align: center;
+    }
+i{
+  text-align: center;
+  color: #ff5722;
+
+   } 
+
+  .bond{
+
+    border: 2px solid #56efea ;
+    padding:20px;
+    border-radius: 4px 83px
+  }
+ h2{
+  padding-left: 10px;
+  color: green;
+  position: absolute;
+
+ }
+
+ h1{
+  color: red;
+  position: absolute;
+ }
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+.info {color: dodgerblue;}
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+i:hover{
+   background: #2196F3;
+    color: white;
+}
+
+  </style>
+
+</head>
+<body>
+ 
+<!-- navigation menu... -->
+<nav class="w3-bar w3-blue">
+  <a href="#" class="w3-button w3-bar-item">Home</a>
+  <a href="FirstAssg.html" class="w3-button w3-bar-item">Profile</a>
+  <a href="Education.html" class="w3-button w3-bar-item">Education</a>
+  <a href="Project.html" class="w3-button w3-bar-item">Projects Details</a>
+ <a href="dele.html" class="w3-button w3-bar-item">Model WebPage</a>
+    <a href="layout.html" class="w3-button w3-bar-item">Sample WebPage</a>
+     <a href="textcss3.html" class="w3-button w3-bar-item"> 
+      <a href="Selectors.html" class="w3-button w3-bar-item">Transtion</a>
+</nav>
+
+<!-- <h1 style="position: absolute;color:white;    margin-top: 20px;     margin-left: 50%;  ">hi</h1> -->
+
+  <h1 style="   margin-top: 12px;     margin-left: 43%;  " >Vignesh.r</h1>
+<form>  <input type="button" class="btn info" style="position: absolute;   margin-top: 68px;  margin-left: 93%; " value="Register" 
+      onclick="window.location.href='Register.html'" />
+</form>
+  <h3 style="color:#07f318; position: absolute;   margin-top: 81px;     margin-left: 41%;  ">Developer Maker</h3>
+
+  <font face="cursive"><h2 align="left" style=" margin-top: 117px;     margin-right: 50%; "><u>Mission:</u></h2></font>
+  <p><i><article  class ="bond"  style=" position: absolute;   margin-top: 157px;     margin-right: 0%;" >Utilizing relevant technology and the specified knowledge to provide unique value and high quality solutions to our customers, serving with integrity and fairness.</article></i></p> 
+    
+<font face="cursive"><h2 align="left" style=" margin-top: 231px;     margin-right: 50%;"><u>Vision:</u></h2>
+<p ><i><article class ="bond"  style=" position: absolute;   margin-top: 289px;     margin-right: 0%;">To be the technologically advanced & most admired organization providing high quality and cost effective services with a long-term client relationship strategy.</article></i></p> 
+
+<font face="cursive"><h2 align="left" style=" margin-top: 363px;     margin-right: 50%;"><u>Core Value:</u></h2>
+   
+<p><i><article class="bond" style="position: absolute;   margin-top: 421px;     margin-right: 0%;" >To be the technologically advanced & most admired organization providing high quality and cost effective services with a long-term client relationship strategy technologically advanced & most admired organization providing high quality and cost effective services with a long-term client relationship.</article></i></p>
+
+<!-- slide show  -->
+<section>
+
+  
+ <img class="mySlides" src="img1.jpg" style="width: 102%; display: none; margin: -15px;">
+  <img class="mySlides" src="img2.jpg" style="width: 102%; display: none; margin: -15px;">
+  <img class="mySlides" src="img3.jpg" style="width: 102%; display: none; margin: -15px;">
+</section>
+
+  <!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-blue w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="#" target="_blank">Devo_Maker</a>
+  </p>
+</footer>
+ <script>
+// Automatic Slideshow - change image every 3 seconds
+ 
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+</body>
+</html>

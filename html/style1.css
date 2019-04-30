@@ -1,0 +1,333 @@
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#toproot{
+	width: 100%;
+background: blue;
+}
+#root{
+	width: 1348px;
+	margin: auto;
+	background-color: green;
+
+	height: 499px;
+}
+.floatleft{
+float: left;
+}
+header {
+	height: 35px;
+	 background: #1b1a1a;
+}
+ 
+  
+  #head_title{
+height: 100px;
+background:lightgrey;
+
+}
+
+/*header #banner{
+height: 220px;
+background: lightgreen;
+}*/
+
+header nav{
+height: 150px;
+background: pink;
+}
+ header h1{
+
+ 	text-shadow: red -3px 3px 9px,
+ 	             yellow 3px -3px 9px;}
+
+ 	   header h5{
+ 
+ 	/*   	text-fill-color:lime;hfh
+          background-image: url(img11.jpg);
+
+      color: #a7a7ec;
+    position: absolute;
+    margin-top: -27px;
+     margin-left: 86%;*/
+
+ 	   }          
+
+ main{
+
+	height: 300px; /*height: auto;*/
+	background: #cadcfb;
+
+}
+main nav{
+
+ height: 369px;
+width: 400px;
+background-color: #cadcfb;
+}
+main article{
+
+/* height: 100%;*/ /*auto*/
+height: 369px;
+width: 557px;
+background: #d0d5de;
+display: inline-block;
+
+ }
+ main aside{
+
+ 	/*height: 100%;*/
+ 	height: 369px;
+ 	width: 391px;
+ 	 	background: #cadcfb;
+ }
+#root footer{
+	height: 355px;
+	background: #c489ce;
+	 
+	
+}
+
+.flex{
+	 display: flex;
+	 background-color: #3a3a6d; 
+
+}
+.flex > div{
+	background-color: #d48f8f;
+	margin: 13px;
+	padding: 20px;
+	font-size: 18px;
+}
+ p{
+text-indent: 77px;
+    padding: 16px;
+font-family: cursive;
+}
+  header h1{
+padding-left: 0px;
+}
+h3{
+	padding: 38px;
+    margin-left: 358px;
+}
+ #head_title img{ 
+	width: -webkit-fill-available;
+    height: 100px;
+
+}
+.row{
+	display: table;
+
+}
+.column{
+	float: left;
+	padding: 6px;
+width: 300px
+
+}
+.bottom-right {
+    position: absolute;
+    top: 104px;
+    right: 347px;
+    color: #93f786;
+    margin: 2px;
+    padding: 5px 1px 2px 3px;
+    float: left;
+}
+
+span{
+padding: 18px;
+margin-left: -21px;
+
+
+  }
+ 
+span:hover {
+  background: #2196F3;
+  border-color: red;
+  color: white;
+}
+--------------------------------------------Page of CSS--------------------------------------------------------
+
+#toproot1{
+	width: 100%;
+	margin: auto;
+ background: blue; 
+ 
+
+}
+#root1{
+	width: 1348px;
+	margin: auto;
+	height: 499px;
+}
+
+ #header1 {
+	height: 35px;
+	background-color:black;
+	  
+}
+
+
+#header1 h1{
+	 
+	text-align: center;
+	text-shadow: white -3px -3px 9px;
+	color: red;
+}
+
+#header1 h2{
+	font-size: 45px;
+	text-align: center;
+	text-shadow: white -3px -3px 9px , yellow 3px -3px 9px , red -3px 3px 9px;
+}
+#header1 h3{
+ 
+	/* -webkit-text-fill-color: red;*/
+}
+#header1 h4{
+font-size: 38px;
+  
+     text-align: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: black 1px;
+    -webkit-background-clip: text;
+    font-family: love2;
+ }
+  
+ 
+
+@font-face{
+	src:url(Love.ttf);
+	font-family:love;
+}
+
+@font-face{
+	src:url(Love2.otf);
+	font-family:love2;
+}
+
+@font-face{
+	src:url(Love3.otf);
+	font-family:love3;
+}
+
+#header1 h5{
+	background-image: url(img12.jpg);
+	-webkit-text-fill-color: transparent;
+	 -webkit-text-stroke: black 0px;
+    -webkit-background-clip: text;
+text-align: center;
+font-family: love;
+font-size: 85px;
+ }
+ #header1 p{
+ 	text-align: justify;
+ 	column-count: 3;
+ 	column-gap: 28px;
+    column-rule: #a22323 medium double;
+    color: #efefef;
+    font-family: love3;
+    margin: 16px;
+ }
+
+ div h3{
+ 	color: blue;
+ }
+    .dc > p {
+
+color: red;
+  }
+
+  .im  {
+
+  	margin-left: 151px;
+    margin-top: -220px;
+   } 
+  	div + p{
+
+  	    
+    color: blue;
+  }
+
+----------------------------------------------Selector Styel=----------------------------------------------------------
+#toproot2{
+	width: 100%;
+	 
+	background: blue;
+
+}
+#root2{
+	 
+	width: 1349px;
+	height: 547px;
+	background: black;
+}
+#root2 img{
+ /*transform: rotate(30deg);*/
+ /*transform: rotateX(120deg);*/
+/*transform: skew(30deg,30deg);*/
+  
+}
+ 
+
+#root2 img[src $= jpg]{
+	border-radius: 49px;
+}
+
+#group1 ol{
+	width: 30%;
+	display: inline-block;
+	border: thin ridge black;
+	list-style: none;
+	margin: 0px;
+	padding:0px;
+	border-color: lime;
+}
+ #root2 #group1 ol li {
+margin: 5px;
+border: thin ridge red;
+padding: 10px;
+text-align: center;
+ color: blue;
+
+}
+#root2 #group1 ol li:hover{
+	background-color: #a0ccf1;
+}
+#group1 ol li img{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	margin: -53px;
+	margin-left: 424px;
+	background-color:  ;
+	display: none;
+	border-image-slice: 12px;
+
+}
+#group1 ol li:hover img{
+	display: block;
+	border-radius: 0px 30px 30px 20px ;
+
+}
+  
+
+#root2 #header3 h1{
+	transition-duration: 5s;
+	text-align: center;
+}
+
+#root2 #header3 h1:hover{
+	background: red;
+	transition-duration: 1s;
+	-webkit-transition:width 2s;
+}
+#root2 #footer1{
+	 height: 110px;
+background:red;
+} 
